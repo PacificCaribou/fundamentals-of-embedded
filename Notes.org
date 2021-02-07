@@ -1,0 +1,64 @@
+* Fundamentals of Embedded Notes
+** Learning Goals
+   You will learn to design embedded systems front to back on your own at a
+   high level.
+** Sessions
+** Scaffold
+   A preview of what's to come. Content is deleted as I progress
+   through each section.
+
+   - introduction
+   - precision, accuracy, measurement uncertainty
+     - sources of noise
+     - how noise affects computation
+     - propogating uncertainties
+       - deriving Uncertainty Propogation Approximation
+   - C programming for embedded systems
+     - minimal C program examples
+     - what goes on? what happens during eventual execution?
+   - coursework 1
+     - embedded processor emulator
+     - est. ~6 hours
+     - GCC and Binutils to compile, link, and disassemble
+     - learning objectives
+       - write simple program susing C and ASM
+       - compile and run directly on embedded with no OS
+       - create, use, and edit Makefiles and Linker Command files
+       - use Linker Map Files, differentiate from Linker Command Files
+   - embedded I/O interfaces
+     - sensors I2C and SVI
+   - Bayesian view of measurements
+     - basic statistics
+     - Bayesian statistics
+   - coursework 2
+     - OLED display control over SPI
+     - est. ~6 hours
+     - learning objectives
+       - hands-on driver in C over SPI
+       - should be able to read datasheet and write driver in C
+   - FPGAs and Verilog
+     - PL/PLAs
+     - LUTs / FPGAs
+   - displays and perception
+     - perception of color
+     - OLED displays
+       - reducing power consumption in ways humans can't see
+   - project proposal
+     - est. ~2 hours
+     - identify interesting eng problem and use embedded to solve
+   - physical laws, invariants, noether theorem
+     - signals
+     - stationary action
+   - wireless communication and BLE
+   - case study: design, schematics, layout, manufacture
+   - power, performance, noise
+     - ways to measure all
+   - power measurement
+     - est. ~6 hours
+     - learning goals
+       - read datasheet and write driver in C to interface
+   - coureswork 5
+     - project interim report
+     - ~20 hours
+     - learning goals
+       - understand how you would implement using PCB
