@@ -1,0 +1,37 @@
+* 0 Introduction Notes
+  Sample projects are below.
+  
+  - soil quality
+  - sports injury detection
+  - rotating pyramids on OLED
+  - air quality evaluation
+  - prevent card skimming
+  - lightness illusion
+  - edge detection
+  - pedometer
+
+  Software should work on any UNIX-like system.
+** 0 Preface
+   Generally, you will design the systems to be energy and time efficient and
+   deal with uncertainty.
+   
+   Note:
+   - IoT mentioned once
+   - Arduino and Raspberry Pi are embedded systems (containing microcontrollers)
+     and not microcontrollers
+   - experienced engineers refer to /configuring/ an FPGA and /programming/ a
+     microcontroller
+   - experienced engineers refer to /programming/ and not /coding/
+*** Course Overview
+    This course will give you the fundamentals to understand your design
+    choices, allowing you to make new theoretical solutions going beyond what's
+    possible today.
+
+    You should be able to evaluate on time, energy, and error efficiency.
+    Oftentimes, embedded systems are off-grid and still need to be reliable,
+    making energy efficiency key. Handling uncertainty is also key. Cheap
+    sensors are driven by usage in mobile phones, and are thus only as accurate
+    as phones need.
+**** Terms
+     - white goods: household merchandise formerly made of white fabrics
+     - white goods: large household appliance, previously finished in white enamel

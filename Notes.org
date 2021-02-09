@@ -2,7 +2,45 @@
 ** Learning Goals
    You will learn to design embedded systems front to back on your own at a
    high level.
-** Sessions
+** Coursework
+*** Supplement #1
+    It is difficult to access Cambridge's network without access. In lieu of
+    hacking, I've opted to make my own challenge s.t. I can get the skills
+    necessary from Coursework #1 without going to jail.
+
+    Coursework #1 is meant to lead us to:
+
+    1. compile C and ASM to geterate S-record format binaries
+    2. run S-record format binary (on Sunflower or embedded platform)
+    3. use Sunflower man / help
+    4. use information in map file + emulator to debug program
+    5. apply understanding of map files, binary files, object files, and
+       interrupts to new challenges
+**** Tasklist
+     - [-] compile C and ASM to S-record
+       - [X] learn about S-record
+       - [ ] find a use for it
+       - [ ] build something using it
+     - [ ] run S-record format binary
+       - [ ] find a way to run it (on an actual chip)
+       - [ ] run it
+     - [ ] use information in map file + emulator
+       - [ ] what is map file
+       - [ ] GDB review
+     - [ ] build something to demonstrate understanding
+       - [ ] capstone
+       - [ ] barely in-reach
+*** Coursework #2
+    - [ ] read assignment
+    - [ ] read Appendix C
+      - [ ] read
+      - [ ] install cross compilation tools
+    - [ ] read Appendix B
+    - [ ] read datasheet for board
+      - [ ] key parts
+    - [ ] load program using JLink
+    - [ ] run program on board
+    - [ ] power LED with board
 ** Scaffold
    A preview of what's to come. Content is deleted as I progress
    through each section.

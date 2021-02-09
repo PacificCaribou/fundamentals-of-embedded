@@ -1,0 +1,29 @@
+* Supplement 1 Notes
+** S-record
+   Wikipedia
+   Source: [[https://en.wikipedia.org/wiki/SREC_(file_format)][here]]
+
+   Motorola S-record conveys binary information as hex in ASCII form. It's
+   commonly used for programming flash in EPROMs, EEPROMs, and other
+   programmable devices.
+
+   A compiler converts input to machine code in hex, which is then "burned" into
+   non-volatile memory, or transferred for loading / execution.
+
+   It's known as SRECORD, SREC, S19, S28, or S37. Filenames include .s, .sx, and
+   .srec.
+*** Binary Format
+    S / Type / Byte Count / Addr / Data / Checksum
+
+    | S          | ASCII 0x53, for start                            |
+    | type       | digit 0-9                                        |
+    | byte count | num bytes in record, min 3 max 0xFF              |
+    | address    | 4/6/8 hex digits in big endian                   |
+    | data       | 2^n hex dgiits                                   |
+    | checksum   | 1s comp of sum over 1 byte (byte ct, addr, data) |
+*** Limitations
+    Record length, data field, and comments are limited.
+** Map File
+   A map file gives the location of functions and data, and links line numbers
+   to code. To generate it using gcc, use -Xlinker -Map=output.map. To get
+   a symbol dump, use objdump -x objfile.o.
